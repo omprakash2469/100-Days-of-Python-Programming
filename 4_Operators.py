@@ -51,7 +51,7 @@ print("a %= 5 is", a)
 
 # 4. Identity Operators
 print("4 is 5 =", 4 is 5)
-print("5 is not 5 =", 4 is not 5)
+print("4 is not 5 =", 4 is not 5)
 
 
 # 5. Comparison Operators or conditional operators
