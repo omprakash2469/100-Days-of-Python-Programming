@@ -6,6 +6,7 @@ car = {
     "year": 2019,
 }
 
+
 # 1. update()
 # The update() method updates the value of the key provided to it if the item already exists in the dictionary, else it creates a new key-value pair.
 car.update({'model': 'GLE 400'}) # Update the existing key
@@ -15,7 +16,7 @@ car.update({'city': 'Jaipur'}) # Create a new key
 
 # 2. clear()
 # The clear() method removes all the items from the list.
-# car.clear()
+car.clear()
 print(car)
 
 
@@ -31,7 +32,7 @@ car.popitem()
 print(car)
 
 
-# 4. del
+# 5. del
 # we can also use the del keyword to remove a dictionary item.
 # If key is not provided, then the del keyword will delete the dictionary entirely.
 del car['model']
