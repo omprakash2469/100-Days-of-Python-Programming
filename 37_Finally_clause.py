@@ -14,5 +14,5 @@ except ValueError: # handle error if occured
 else: # code block if no error has occured
     print("Program is executed successfully!", num)
     
-finally: # code block to run whether the error has occured or not
+finally: # Whether the error has occured or not this block will be executed in both of the cases
     print("The task has ended")
