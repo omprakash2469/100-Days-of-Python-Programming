@@ -23,3 +23,6 @@ class Person:
 
 
 a = Person("Omprakash")
+print(a.get_name) # Getter
+a.get_name = "Paras"
+print(a.get_name) # Setter
