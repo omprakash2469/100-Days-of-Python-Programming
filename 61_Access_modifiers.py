@@ -18,6 +18,7 @@ class Student:
         self.age = age               # public variable
         self.name = name             # public variable
         self.__location = "Pune"     # private variable
+        self._profession = "Pune"    # protected variable
 
     def _info(self):  # An indication of protected function
         return f"{self.name} is {self.age} years old"
