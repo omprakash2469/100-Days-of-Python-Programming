@@ -1,3 +1,5 @@
+# Filter files according to file types
+
 import os, shutil
 
 src = "C:/Users/admin/Pictures/wallpaper/Home - Blingg Jewelry_files/"
