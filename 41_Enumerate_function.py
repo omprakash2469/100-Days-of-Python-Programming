@@ -26,12 +26,13 @@ students = [
 
 # Iterate over list
 # --
-for i, value in enumerate(fruits):
-    print(value, "is at index", i)
+# for i, value in enumerate(fruits):
+#     print(value, "is at index", i)
 
 
 
 # Iterate over object
 # --
 for i, value in enumerate(students):
+    print(i)
     print(value['name'], "is from", value['location'])
